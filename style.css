@@ -1,0 +1,81 @@
+.profile-card {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+  }
+   .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+   }
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profilepicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-title {
+    font-size: 18px;
+    color: red;
+}
+
+.profile-body {
+  margin-top: 20px;
+}
+
+.profile-bio {
+  font-size: 16px;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.profileinfo li {
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+}
+
+.profileinfo li {
+  font-size: 16px;
+  color: burlywood;
+  
+  
+  margin-bottom: 10px;
+}
+
+.profile-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-button:hover {
+  background-color: green;
+}
